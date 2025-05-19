@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemTraMvc\\KiemTraMvc.csproj": {}
+    "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemtraMvc\\KiemTraMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemTraMvc\\KiemTraMvc.csproj": {
+    "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemtraMvc\\KiemTraMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemTraMvc\\KiemTraMvc.csproj",
+        "projectUniqueName": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemtraMvc\\KiemTraMvc.csproj",
         "projectName": "KiemTraMvc",
-        "projectPath": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemTraMvc\\KiemTraMvc.csproj",
+        "projectPath": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemtraMvc\\KiemTraMvc.csproj",
         "packagesPath": "C:\\Users\\voduc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemTraMvc\\obj\\",
+        "outputPath": "C:\\Users\\voduc\\Downloads\\KiemTraMvc\\KiemtraMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\voduc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,30 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
